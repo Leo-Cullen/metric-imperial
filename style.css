@@ -1,0 +1,105 @@
+/*  white h1, input text, p
+    #CCC1FF h2
+    #B295FF light violet input border
+    #6943FF blue
+    #273549 navy
+    #1F2937 dark-navy
+    #3D3D3D button text 
+
+    h1 28px 800; h2 20px 600; p 14px 400; input 800 58px; 
+    button 16px 500
+
+    thin extra-light light regular medium semi-bold bold extra-bold black
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 800;
+  padding: 35px;
+}
+
+h2 {
+  color: #ccc1ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+button,
+input {
+  border-radius: 5px;
+}
+
+.container {
+  width: 550px;
+  height: 770px;
+  margin: 40px auto 0;
+}
+
+.input {
+  height: 285px;
+  background-color: #6943ff;
+  color: white;
+}
+
+#units-input {
+  /* display: block; */
+  padding: 20px;
+  width: 120px;
+  height: 84px;
+  background: none;
+  color: #fff;
+  font-size: 58px;
+  font-weight: 800;
+  border: 2px solid #b295ff;
+}
+
+#convert-btn {
+  display: block;
+  width: 120px;
+  height: 42px;
+  text-align: center;
+  margin: 20px auto;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: #3d3d3d;
+  border: none;
+}
+
+.output {
+  padding: 8px;
+  background-color: #1f2937;
+}
+
+.unit {
+  width: 500px;
+  height: 109px;
+  background-color: #273549;
+  margin: 20px auto 10px;
+}
+
+.unit h2 {
+  padding-top: 30px;
+}
+
+.unit p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+#mass {
+  margin-bottom: 30px;
+}
